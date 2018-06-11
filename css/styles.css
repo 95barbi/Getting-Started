@@ -18,6 +18,12 @@ p {
     line-height: 1.2;
 }
 
+article p {
+    font-size: 35px;
+    padding: 20px;
+    text-align: justify;
+}
+
 .container {
     width: 100;
     margin: auto;
@@ -123,6 +129,13 @@ div.rightSide-col {
     margin-left: 15%;
 }
 
+div.developingIcon img {
+    display: block;
+    margin: auto;
+    box-shadow: -2px -2px 20px 2px rgba(0,0,0,.15), 2px 2px 17px 2px rgba(0,0,0,1);
+    /*H V Blur Spread RGB*/
+}
+
 h1.large {
     color: #fff;
     font-size: 56px;
@@ -164,6 +177,28 @@ button.learnMore {
     margin: auto;
 }
 
+footer.footsy {
+    background-color: #666;
+    padding-left: 10%; 
+}
+
+footer.footsy h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+footer.footsy ul li {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
 /*############## Mobile ##############*/
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
@@ -199,9 +234,22 @@ button.learnMore {
         font-size: 50px;
     }
 
-    .col-6, .col-4 {
+    h1.large {
+        font-size: 50px;
+    }
+
+    .col-7, .col-6, .col-5, .col-4 {
         width: 100%;
         margin: 0;
+    }
+
+    article p {
+        font-size: 25px;
+    }
+
+    div.mobileStack {
+        width: 50%;
+        display: block;
     }
 
     div.box {
@@ -211,6 +259,14 @@ button.learnMore {
 
     div.leftSide-col, div.rightSide-col {
         margin: 15px;
+    }
+
+    div.developingIcon {
+        margin: 10px;
+    }
+
+    div.developingIcon img {
+        width: 100%;
     }
 
     input[type="text"] {

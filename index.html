@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>My CSS Website</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
@@ -53,7 +53,7 @@
                 <div class="col-4">
                     <div class="box">
                         <div class="icon">
-                            <img src="chatWithMe.png">
+                            <img src="images/chatWithMe.png">
                         </div>
                         <label class="">Chat with Me</label>
                         <p>Chat with me, if you want...</p>
@@ -62,7 +62,7 @@
                 <div class="col-4">
                     <div class="box">
                         <div class="icon">
-                            <img src="learnToCode.png">
+                            <img src="images/learnToCode.png">
                         </div>
                         <label class="">Learn to Code</label>
                         <p>Learn to code with me!!!</p>
@@ -71,7 +71,7 @@
                 <div class="col-4">
                     <div class="box">
                         <div class="icon">
-                            <img src="buildAnEmpire.png">
+                            <img src="images/buildAnEmpire.png">
                         </div>
                         <label class="">Build an Empire</label>
                         <p>Let's build an EMPIRE together!!!</p>
@@ -85,17 +85,61 @@
             </div>
         </div>
 
+        <hr>
 
-        <script>
-            function dropdownMenu() {
-                var x = document.getElementById("dropdownClick");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <article>
+                        <p>Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications (or just 'web apps') electronic businesses, and social network services.</p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="developingIcon">
+                        <img src="images/developing.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footsy">
+            <div class="row">
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Products</h1>
+                    <ul>
+                        <li>Computers</li>
+                        <li>iPads</li>
+                        <li>iPhones</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Learn More</h1>
+                    <ul>
+                        <li>Developers</li>
+                        <li>Designers</li>
+                        <li>Hackers</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Support</h1>
+                    <ul>
+                        <li>Help</li>
+                        <li>Q&A</li>
+                        <li>Contacts</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/home.js" type="text/javascript"></script>
 
     </body>
 </html>
